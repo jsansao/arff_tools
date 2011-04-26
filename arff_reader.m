@@ -1,8 +1,8 @@
 function output = arff_reader(filename)
-% Reads arff file and output cell with content 
+% Reads arff file and outputs cell with content 
 % usage:
 %
-%       output = leitura_arff(filename)
+%       output = arff_reader(filename)
 
 [fid, MESSAGE] = fopen(filename);
 
